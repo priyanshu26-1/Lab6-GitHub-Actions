@@ -1,0 +1,15 @@
+
+{
+  "name": "lab6-github-actions",
+  "version": "1.0.0",
+  "description": "CI pipeline using GitHub Actions",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src test",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1"
+  }
+}
+
